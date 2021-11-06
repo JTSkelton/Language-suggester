@@ -24,22 +24,7 @@ display: none;
   padding: none;
 }
 
-
-.langSelect{
-  display: flex;
-  justify-content: center;
-  font-family: 'Exo 2', sans-serif;
-  color: antiquewhite;
-}
-
-.subTitle{
-  display: flex;
-  justify-content: center;
-  font-family: 'Exo 2', sans-serif;
-  color: antiquewhite;
-}
-
-.userResults{
+.langSelect, .userResults, .subTitle{
   display: flex;
   justify-content: center;
   font-family: 'Exo 2', sans-serif;
