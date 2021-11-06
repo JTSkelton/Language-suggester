@@ -8,7 +8,6 @@ $(document).ready(function() {
     let userAnswer5 = parseInt($("input:radio[name=question5]:checked").val());
     let userAnswerSum = userAnswer1 + userAnswer2 + userAnswer3 + userAnswer4 + userAnswer5;
     $(".result1, .result2, .result3").hide();
-
     if (userAnswerSum <= 5) {
       $(".result1").show();
     } else if (userAnswerSum >=6 && userAnswerSum <=10) {
