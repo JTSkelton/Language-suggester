@@ -3,7 +3,7 @@
 html, body{
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, #020100, #2a2823)
+  background: linear-gradient(to bottom, #020100, #22201e)
 }
 
 .result1, .result2, .result3 {
@@ -26,6 +26,22 @@ display: none;
 
 
 .langSelect{
+  display: flex;
+  justify-content: center;
+  font-family: 'Exo 2', sans-serif;
+  color: antiquewhite;
+}
+
+.subTitle{
+  display: flex;
+  justify-content: center;
+  font-family: 'Exo 2', sans-serif;
+  color: antiquewhite;
+}
+
+.userResults{
+  display: flex;
+  justify-content: center;
   font-family: 'Exo 2', sans-serif;
   color: antiquewhite;
 }
