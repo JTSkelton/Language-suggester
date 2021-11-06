@@ -7,10 +7,10 @@ $(document).ready(function() {
     let userAnswer4 = parseInt($("input:radio[name=question4]:checked").val());
     let userAnswer5 = parseInt($("input:radio[name=question5]:checked").val());
     let userAnswerSum = userAnswer1 + userAnswer2 + userAnswer3 + userAnswer4 + userAnswer5;
+    $(".result1 p, .result2 p, .result3 p").remove();
 
     if (userAnswerSum <= 5) {
 
     }
-    $
   });
 });
