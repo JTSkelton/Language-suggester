@@ -14,6 +14,8 @@ $(document).ready(function() {
       $(".result2").show();
     } else if (userAnswerSum >=11 && userAnswerSum <=14) {
       $(".result3").show();
+    } else {
+      $(".error").show();
     }
   });
 });
