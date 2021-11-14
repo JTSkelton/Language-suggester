@@ -26,7 +26,7 @@ https://github.com/JTSkelton/Language-suggester.git
 1) Copy the link to the GitHub repository: https://github.com/JTSkelton/Language-suggester.git
 2) Paste the link in the terminal after the 'git clone' command
 3) The repository is now copied to your device. You can now navigate to the files in the directory labeled 'Language-Suggester' and open with your choice of text-editor.
-
+4) To open in your browser, select index.html and open with the browser of your choice.
 ## Known Bugs
 
 * No known bugs
