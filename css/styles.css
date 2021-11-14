@@ -6,7 +6,7 @@ html, body{
   background: linear-gradient(to bottom, #020100, #22201e)
 }
 
-.result1, .result2, .result3 {
+.result1, .result2, .result3, .error {
 display: none;
 }
 
